@@ -1,0 +1,68 @@
+diff --git a/C:\Users\Santhosh R\Documents\Codex\2026-09-23\co\index.html b/C:\Users\Santhosh R\Documents\Codex\2026-09-23\co\index.html
+new file mode 100644
+--- /dev/null
++++ b/C:\Users\Santhosh R\Documents\Codex\2026-09-23\co\index.html
+@@ -0,0 +1,63 @@
++<!doctype html>
++<html lang="en">
++  <head>
++    <meta charset="UTF-8" />
++    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
++    <title>Welcome back</title>
++    <link rel="preconnect" href="https://fonts.googleapis.com" />
++    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
++    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
++    <link rel="stylesheet" href="styles.css" />
++  </head>
++  <body>
++    <main class="page-shell">
++      <section class="story-panel" aria-label="Welcome">
++        <a class="brand" href="#" aria-label="Lumen home"><span class="brand-mark">✦</span> lumen</a>
++        <div class="orb orb-one"></div><div class="orb orb-two"></div>
++        <div class="story-copy">
++          <p class="eyebrow">A quieter place to focus</p>
++          <h1>Your next bright<br />idea starts here.</h1>
++          <p>Organize your work, make space for what matters, and let your best thinking take the lead.</p>
++        </div>
++        <p class="quote">“Clarity is kindness—to yourself and to others.”</p>
++      </section>
++
++      <section class="form-panel">
++        <div class="form-wrap">
++          <div id="login-view">
++            <p class="step">01 / 01</p>
++            <h2>Welcome back</h2>
++            <p class="subtitle">Sign in to continue your thoughtful work.</p>
++            <form id="login-form" novalidate>
++              <label for="email">Email address</label>
++              <input id="email" name="email" type="email" placeholder="you@example.com" autocomplete="email" required />
++              <p class="field-error" id="email-error" aria-live="polite"></p>
++              <div class="password-label"><label for="password">Password</label><button type="button" class="text-button" id="forgot-link">Forgot password?</button></div>
++              <div class="password-input"><input id="password" name="password" type="password" placeholder="Enter your password" autocomplete="current-password" required /><button class="eye" type="button" id="toggle-password" aria-label="Show password">Show</button></div>
++              <p class="field-error" id="password-error" aria-live="polite"></p>
++              <label class="remember"><input id="remember" type="checkbox" /><span>Remember me for 30 days</span></label>
++              <button class="primary-button" type="submit">Sign in <span>→</span></button>
++              <p class="form-note" id="login-note" aria-live="polite"></p>
++            </form>
++            <p class="footer-text">New to Lumen? <a href="#">Create an account</a></p>
++          </div>
++
++          <div id="reset-view" hidden>
++            <button type="button" class="back-button" id="back-to-login">← Back to sign in</button>
++            <p class="step">RESET ACCESS</p>
++            <h2>Forgot your password?</h2>
++            <p class="subtitle">Enter your email and we’ll send a secure link to reset your password.</p>
++            <form id="reset-form" novalidate>
++              <label for="reset-email">Email address</label>
++              <input id="reset-email" name="reset-email" type="email" placeholder="you@example.com" autocomplete="email" required />
++              <p class="field-error" id="reset-error" aria-live="polite"></p>
++              <button class="primary-button" type="submit">Send reset link <span>→</span></button>
++              <p class="form-note" id="reset-note" aria-live="polite"></p>
++            </form>
++          </div>
++        </div>
++      </section>
++    </main>
++    <script src="app.js"></script>
++  </body>
++</html>
